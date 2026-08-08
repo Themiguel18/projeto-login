@@ -6,7 +6,7 @@
         background-image: linear-gradient(to top, #B6B5B8, #3D848F);
     }
     section#login{
-        width: 80vw;
+        width: 90vw;
     }
 
     section#login > div#imagem{
@@ -17,6 +17,16 @@
     section#login > div#formaulario{
         float: right;
         width: 70vw;
+    }
+
+    form > input[type=submit]{
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        background-color: #314245;
     }
 }
 
