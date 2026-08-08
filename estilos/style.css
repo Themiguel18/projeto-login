@@ -8,7 +8,7 @@
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top, #7EA1C4, #000000);
     height: 100vh;
     width: 100vw;
 }
@@ -30,6 +30,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
